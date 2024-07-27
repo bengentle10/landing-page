@@ -15,14 +15,16 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
+  knust,
+  tme,
+  mathworks,
+  ckodon,
+  soil,
+  gemini,
   tripguide,
   threejs,
+  headstarter,
+  matlab,
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +44,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Electronics Engineer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Full-Stack Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "MATLAB Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Graphic Designer",
     icon: creator,
   },
 ];
@@ -77,12 +79,12 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "Matlab",
+    icon: matlab,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "React JS",
+    icon: reactjs,
   },
   {
     name: "Tailwind CSS",
@@ -97,16 +99,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
   {
     name: "docker",
@@ -116,55 +110,66 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "MATLAB Freelancer",
+    company_name: "Independent Consultant",
+    icon: mathworks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Nov 2021 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designing and developing control system and power system simulation models using Simulink.",
+      "Researching and developing algorithms for various applications.",
+      "Collaborating with clients to understand their needs and provide tailored solutions.",
+      "Projects include an Automatic Car Parking Management System, a Tumor Growth Validation Model, and others.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Engineer",
+    company_name: "CkodonTech",
+    icon: ckodon,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "June 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Creating and maintaining user-friendly college navigation website with Next.js.",
+      "Working with UI/UX designers, developers and project managers to make website scalable.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Remotely participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Research Assistant",
+    company_name: "KNUST Education Engineering Project (KEEP) Research Lab",
+    icon: knust,
+    iconBg: "#E6DEDD",
+    date: "Nov 2023 - Dec 2023",
+    points: [
+      "Developing a responive and user-friendly circuit simulation software with Vue.",
+      "Implementing a hand drawn circuit recognition feature into website.",
+      "Providing weekly report and feedback concering progress.",
+      "Collaborating with other Engineers to make website robust and functional.",
+    ],
+  },
+  {
+    title: "Robotics Instructor",
+    company_name: "Transfer Multisort Elektronik (TME) Education",
+    icon: tme,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2024- Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Coaching and training junior and high school students in Arduino programming and Robotics.",
+      "Creating tailored curriculum for independent learning and easy teaching.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Software Engineer Fellow",
+    company_name: "headstarter",
+    icon: headstarter,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "July 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Building 5 AI projects in 5 weeks through mentorship sessions by CEOs and Founders.",
+      "Working on a final project aiming for 100 sign-ups, 1000 accounts, or $1000 revenue.",
+      "Taking part in weekly virtual interview sessions.",
+      "Will be presenting project to an Engineer.",
     ],
   },
 ];
@@ -198,67 +203,46 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Soil Resistance Monitoring System",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An experimental 'mini' project built to explore and harness the power of sensor-based IOT systems. The two main parameters that determine soil resistivity, soil moisture content and soil temperature, were used to estimate the soil resistance, a crucial factor for electrical safety (home grounding) and even agriculture (improved irrigation efficiency - up to 50% water savings - and crop yield increases of 10-30%)",
     tags: [
       {
-        name: "react",
+        name: "C++",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Proteus",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Fusion 360",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: soil,
+    source_code_link: "https://github.com/bengentle10/remote-soil-resistance-monitoring.git",
   },
   {
-    name: "Job IT",
+    name: "Gemini Clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A clone of the Google Gemini platform, this project explores the integration of AI APIs into a web application, dynamically rendering text on the screen with typing effects and animations.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Gemini API",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Typescript",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: gemini,
+    source_code_link: "https://github.com/bengentle10/Gemini-Clone.git",
   },
 ];
 

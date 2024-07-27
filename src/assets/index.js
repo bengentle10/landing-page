@@ -20,14 +20,16 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import matlab from "./tech/matlab.png"
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import knust from "./company/knust.png";
+import ckodon from "./company/ckodon.png";
+import tme from "./company/tme.png";
+import mathworks from "./company/mathworks.png";
+import headstarter from "./company/headstarter.png"
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import soil from "./soil.png";
+import gemini from "./gemini.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -52,11 +54,13 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
+  knust,
+  ckodon,
+  tme,
+  mathworks,
+  soil,
+  gemini,
   tripguide,
+  headstarter,
+  matlab,
 };
