@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://bengentle10.github.io/landing-page",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
